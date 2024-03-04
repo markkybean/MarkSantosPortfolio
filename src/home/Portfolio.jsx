@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio1 from '../assets/porfolio/portfolio-1.png'
+import Portfolio1 from '../assets/porfolio/image1.png'
 import Portfolio2 from '../assets/porfolio/portfolio-1.png'
 import Portfolio3 from '../assets/porfolio/portfolio-3.jpg'
 import Portfolio4 from '../assets/porfolio/portfolio-4.png'
@@ -18,7 +18,7 @@ function Portfolio() {
             <h3 className="text-[56px] font-bold text-white leading-[1]">My Recent Work</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 mt-[51px]">
                 <div className="grid gap-4" >
-                    <a href="" className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://pixemotions.netlify.app" target="_blank" rel="noopener noreferrer" className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
                         <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" 
                         src={Portfolio1} alt="" />
                     </a>
