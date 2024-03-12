@@ -1,6 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Navbar() {
+    useEffect(() => {
+        const handleLinkClick = () => {
+            const navbarSticky = document.getElementById('navbar-sticky');
+            if (navbarSticky) {
+                navbarSticky.classList.add('hidden');
+            }
+        };
+
+        // Add event listeners to each navigation link
+        const links = document.querySelectorAll('#navbar-sticky a');
+        links.forEach(link => {
+            link.addEventListener('click', handleLinkClick);
+        });
+
+        return () => {
+            // Remove event listeners when component is unmounted
+            links.forEach(link => {
+                link.removeEventListener('click', handleLinkClick);
+            });
+        };
+    }, []);
+
     return (
         <nav className="top-0 z-20 w-full px-[24px] xl:px-0">
             <div className="flex flex-wrap items-center justify-between max-w-[1160px] w-full py-7 mx-auto">
@@ -20,12 +42,24 @@ function Navbar() {
                             <path d="M18 2.41764C17.3365 2.71224 16.6252 2.91004 15.8775 2.99983C16.6406 2.5425 17.227 1.81863 17.502 0.957274C16.7893 1.37953 15.9967 1.68676 15.1564 1.85229C14.483 1.13403 13.5235 0.686523 12.4615 0.686523C10.4218 0.686523 8.76783 2.33908 8.76783 4.37883C8.76783 4.66782 8.8015 4.94979 8.86462 5.22054C5.79518 5.06623 3.07505 3.59604 1.25275 1.3613C0.9343 1.90841 0.753332 2.5425 0.753332 3.21867C0.753332 4.49948 1.40426 5.63018 2.39607 6.29372C1.79004 6.27408 1.22048 6.10715 0.722469 5.83078C0.722469 5.84621 0.722469 5.86165 0.722469 5.87708C0.722469 7.66712 1.99626 9.15835 3.68389 9.49924C3.37526 9.58341 3.0484 9.6283 2.71171 9.6283C2.47323 9.6283 2.24176 9.60586 2.0159 9.56097C2.48726 11.0269 3.85083 12.0973 5.46551 12.1268C4.20295 13.1172 2.61071 13.7064 0.879588 13.7064C0.580781 13.7064 0.287585 13.6896 0 13.6545C1.63292 14.7038 3.57447 15.3141 5.66051 15.3141C12.4531 15.3141 16.1679 9.68722 16.1679 4.8081C16.1679 4.64818 16.1637 4.48685 16.1581 4.32973C16.8791 3.80927 17.5048 3.15835 18 2.41764Z" fill="white" />
                         </svg>
                     </div>
-                    <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
+                    <button
+                        id="navbar-toggle-button"
+                        data-collapse-toggle="navbar-sticky"
+                        type="button"
+                        className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        aria-controls="navbar-sticky"
+                        aria-expanded="false"
+                        onClick={() => {
+                            const navbarSticky = document.getElementById('navbar-sticky');
+                            navbarSticky.classList.toggle('hidden');
+                        }}
+                    >
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
+
                 </div>
                 <div className="items-center justify-between hidden w-full gap-16 md:flex md:w-auto md:order-1" id="navbar-sticky">
                     <ul className="flex flex-col items-center w-[90%] justify-center gap-4 md:gap-[30px] p-4 mt-4 font-medium absolute md:left-1/2 md:-translate-x-1/2  z-20 bg-[#141414]/[20%] md:bg-transparent border backdrop-blur-2xl md:backdrop-blur-0 border-[#222222] md:bg-transparent rounded-lg md:p-0 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
