@@ -1,5 +1,6 @@
 import React from 'react'
 import NodeImage from '../assets/node.png'
+import Laravel from '../assets/laravel.svg'
 import CssImage from '../assets/css.png'
 import HtmlImage from '../assets/html.png'
 import JsImage from '../assets/js.png'
@@ -53,7 +54,7 @@ function TechStack() {
                 <img className="w-[80px] h-[50px]" src={RestImage} alt=""/>
             </div>
             <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
-                <img className="w-[50px] h-[50px]" src={NodeImage} alt=""/>
+                <img className="w-[50px] h-[50px]" src={Laravel} alt=""/>
             </div>
         </div>
     </div>

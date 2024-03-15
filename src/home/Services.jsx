@@ -31,7 +31,7 @@ function Services() {
                         <p className="text-[#C1C1C1] w-full">
                             From simple landing pages to complex web applications,
                             I can bring your ideas to life using the latest web
-                            technologies such as <span className="font-bold">React</span> ,<span className="font-bold">Node.js</span> ,
+                            technologies such as <span className="font-bold">React</span> ,<span className="font-bold">Laravel</span> ,
                             and <span className="font-bold">Firebase</span> .
                         </p>
                     </div>
