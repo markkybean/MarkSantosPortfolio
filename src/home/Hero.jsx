@@ -30,7 +30,7 @@ function Hero() {
                             </p>
                         </div>
                         <div className=" flex flex-col lg:flex-row lg:justify-start lg:items-center lg:gap-3">
-                            <a href="#contact" className="flex text-lg text-white font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 bg-blue-500 w-[179px] rounded-lg items-center gap-3 justify-center py-2 mb-4 lg:mb-0">
+                            <a href="https://marksantosresume.vercel.app/" target="_blank" rel="noopener noreferrer"className="flex text-lg text-white font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 bg-blue-500 w-[179px] rounded-lg items-center gap-3 justify-center py-2 mb-4 lg:mb-0">
                                 <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.666626 0.666626V19.3333H15.3333V6.00001L9.33329 0.666626H0.666626ZM2.66663 2.66663H8.66663V6.00001H5.33329V8.66663H2.66663V2.66663ZM10.6666 14.6666H5.33329V12.6666H10.6666V14.6666ZM10.6666 11.3333H5.33329V9.33331H10.6666V11.3333ZM10.6666 8.00001H5.33329V6.00001H10.6666V8.00001ZM10.6666 17.3333H5.33329V15.3333H10.6666V17.3333Z" fill="white" />
                                 </svg>
