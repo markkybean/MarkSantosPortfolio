@@ -17,13 +17,17 @@ function Hero() {
                         </div>
                         <div className="w-full lg:max-w-[79%]">
                             <p className="text-white lg:text-start md:text-center leading-[1.5]">
-                                Hello There! I'm Mark S. Santos, a flexible <span className="font-bold">Full-Stack Developer</span> driven by an unwavering desire to turn ideas into real-world digital wonders. My specialty is creating dynamic, high-performance web applications that combine creativity and usability while utilizing the newest technological advancements, such <span className="font-bold">React,</span> <span className="font-bold">Laravel,</span> and <span className="font-bold">Firebase</span>.
+                                Hello there! I'm Mark S. Santos, a <span className="font-bold"> Full-Stack Developer</span> with a passion
+                                for turning ideas into reality.
+                                I specialize in building scalable, efficient, and user-friendly web applications using
+                                cutting-edge technologies like
+                                <span className="font-bold"> React,</span><span className="font-bold"> Node.js</span>
+                                ,<span className="font-bold"> Firebase</span>, and more.
                             </p>
-
                             <p className="mt-5 text-white lg:text-start md:text-center leading-[1.5]">
-                                Immerse yourself in discovering my projects, gaining insight into my expertise, and unlocking the potential to breathe life into your vision. Let's collaborate and craft something truly extraordinary together!
+                                Dive in to explore my projects, learn about my skills, and discover how I can bring your vision
+                                to life. Let's create something amazing together!
                             </p>
-
                         </div>
                         <div className=" flex flex-col lg:flex-row lg:justify-start lg:items-center lg:gap-3">
                             <a href="https://marksantosresume.vercel.app/" target="_blank" rel="noopener noreferrer"className="flex text-lg text-white font-bold hover:shadow-2xl lg:mx-0 md:mx-auto duration-300 hover:shadow-blue-500/50 bg-blue-500 w-[179px] rounded-lg items-center gap-3 justify-center py-2 mb-4 lg:mb-0">
