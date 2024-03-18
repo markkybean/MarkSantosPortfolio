@@ -1,37 +1,8 @@
-import React, { useEffect } from 'react';
-
-function Navbar() {
-    useEffect(() => {
-        const handleLinkClick = () => {
-            const navbarSticky = document.getElementById('navbar-sticky');
-            if (navbarSticky) {
-                navbarSticky.classList.add('hidden');
-            }
-        };
-
-        // Add event listeners to each navigation link
-        const links = document.querySelectorAll('#navbar-sticky a');
-        links.forEach(link => {
-            link.addEventListener('click', handleLinkClick);
-        });
-
-        return () => {
-            // Remove event listeners when component is unmounted
-            links.forEach(link => {
-                link.removeEventListener('click', handleLinkClick);
-            });
-        };
-    }, []);
-
-    return (
-        <nav className="top-0 z-20 w-full px-[24px] xl:px-0">
-            <div className="flex flex-wrap items-center justify-between max-w-[1160px] w-full py-7 mx-auto">
-                <div className="lg:text-[28px] text-2xl font-black text-neutral-300">Mark S. Santos</div>
-                <div className="flex space-x-3 md:order-2 md:space-x-0 rtl:space-x-reverse">
-                    <div className="flex justify-between items-center  gap-[13px] ">
-
-                        {/* Facebook */}
-                        <a href="https://www.facebook.com/profile.php?id=100006829875531&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+export default function Icon(){
+    return(
+        <>
+          {/* Facebook */}
+          <a href="https://www.facebook.com/profile.php?id=100006829875531&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                             <svg width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9 0.0458984C4.02955 0.0458984 0 4.07544 0 9.0459C0 13.5582 3.32386 17.2838 7.65491 17.9346V11.4313H5.42823V9.06553H7.65491V7.49135C7.65491 4.88504 8.92473 3.74081 11.0909 3.74081C12.1283 3.74081 12.6769 3.81772 12.9367 3.8529V5.91799H11.459C10.5394 5.91799 10.2183 6.78976 10.2183 7.7724V9.06553H12.9134L12.5476 11.4313H10.2183V17.9539C14.6111 17.3578 18 13.6019 18 9.0459C18 4.07544 13.9705 0.0458984 9 0.0458984Z" fill="white" />
                             </svg>
@@ -58,46 +29,6 @@ function Navbar() {
                                 <path fill="white" d="M21.64 0H2.36C1.057 0 0 1.057 0 2.36v19.28C0 22.943 1.057 24 2.36 24h19.28c1.303 0 2.36-1.057 2.36-2.36V2.36C24 1.057 22.943 0 21.64 0zM7.75 20.982H4.286V9.065H7.75v11.917zM5.999 7.92c-1.06 0-1.922-.861-1.922-1.922 0-1.06.861-1.921 1.922-1.921 1.061 0 1.923.861 1.923 1.921 0 1.06-.862 1.922-1.923 1.922zM21.98 20.982h-3.465v-5.937c0-1.406-.027-3.216-1.962-3.216-1.964 0-2.268 1.536-2.268 3.118v6.035H10.81V9.065h3.327v1.658h.045c.464-.879 1.599-1.804 3.284-1.804 3.507 0 4.15 2.308 4.15 5.317v6.746z" />
                             </svg>
                         </a>
-
-                    </div>
-                    <button
-                        id="navbar-toggle-button"
-                        data-collapse-toggle="navbar-sticky"
-                        type="button"
-                        className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
-                        aria-controls="navbar-sticky"
-                        aria-expanded="false"
-                        onClick={() => {
-                            const navbarSticky = document.getElementById('navbar-sticky');
-                            navbarSticky.classList.toggle('hidden');
-                        }}
-                    >
-                        <span className="sr-only">Open main menu</span>
-                        <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
-                        </svg>
-                    </button>
-
-                </div>
-                <div className="items-center justify-between hidden w-full gap-16 md:flex md:w-auto md:order-1" id="navbar-sticky">
-                    <ul className="flex flex-col items-center w-[30%] justify-center gap-4 md:gap-[30px] p-4 mt-4 font-medium absolute md:left-1/2 md:-translate-x-1/2  z-20 bg-[#141414]/[20%] md:bg-transparent border backdrop-blur-2xl md:backdrop-blur-0 border-[#222222] md:bg-transparent rounded-lg md:p-0 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                        <li className="text-center">
-                            <a href="#home" className="block text-center text-white rounded md:bg-transparent">Home</a>
-                        </li>
-                        <li className="text-center">
-                            <a href="#services" className="block text-center text-white rounded md:bg-transparent">Services</a>
-                        </li>
-                        <li className="text-center">
-                            <a href="#portfolio" className="block text-center text-white rounded md:bg-transparent">Portfolio</a>
-                        </li>
-                        <li className="text-center">
-                            <a href="#contact" className="block text-center text-white rounded md:bg-transparent">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    );
+        </>
+    )
 }
-
-export default Navbar;
