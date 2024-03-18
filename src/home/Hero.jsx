@@ -48,7 +48,7 @@ function Hero() {
                     <div data-aos="fade-up-left" data-aos-duration="1000" className="hidden lg:block w-full lg:w-[397px] relative">
                         <img className="mt-10 rounded-lg ml-auto w-full lg:h-[483px] object-cover" src={HeroImage} alt="" />
                     </div>
-                    <div data-aos="fade-up-left" data-aos-duration="1000" className="block lg:hidden w-[220px] h-[220px] relative">
+                    <div data-aos="fade-up-left" data-aos-duration="1000" className="block lg:hidden w-[300px] h-[300px] relative">
                         <img className="mt-16 rounded-lg" src={HeroImage} alt="Small Mark" />
                     </div>
                 </div>
