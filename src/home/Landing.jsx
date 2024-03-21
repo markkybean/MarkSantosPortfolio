@@ -6,6 +6,7 @@ import TechStack from './TechStack';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
+import Certificate from './Certificate';
 
 function Landing() {
   return (
@@ -14,6 +15,7 @@ function Landing() {
       <Hero />
       <Services/>
       <TechStack/>
+      <Certificate/>
       <Portfolio/>
       <Contact/>
       <Footer/>
