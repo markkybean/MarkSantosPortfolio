@@ -8,6 +8,7 @@ import Portfolio6 from '../assets/porfolio/portfolio-6.jpg'
 import Portfolio7 from '../assets/porfolio/image7.png'
 import Portfolio8 from '../assets/porfolio/image8.png'
 import Portfolio9 from '../assets/porfolio/portfolio-9.jpg'
+import quotes from '../assets/porfolio/quotes.png'
 
 
 
@@ -45,9 +46,9 @@ function Portfolio() {
                     </a> */}
                 </div>
                 <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
-                    <a href="https://apiquotesoftheday.netlify.app/" target="_blank" rel="noopener noreferrer"className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://quotes-api-fetcher.vercel.app/" target="_blank" rel="noopener noreferrer"className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
                     <h1 className='text-white text-2xl mb-4'>Quotes Generator API</h1>
-                        <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={Portfolio7} alt="" />
+                        <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={quotes} alt="" />
                     </a>
                     <a href="https://redesignnationalsecuritycouncioffice.netlify.app/" target="_blank" rel="noopener noreferrer"className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
                     <h1 className='text-white text-2xl mb-4'>Redesign</h1>
@@ -57,6 +58,7 @@ function Portfolio() {
                         <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={Portfolio9} alt="" />
                     </a> */}
                 </div>
+                
             </div>
         </section>
     );
