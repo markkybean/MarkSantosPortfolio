@@ -9,6 +9,7 @@ import Portfolio7 from '../assets/porfolio/image7.png'
 import Portfolio8 from '../assets/porfolio/image8.png'
 import Portfolio9 from '../assets/porfolio/portfolio-9.jpg'
 import quotes from '../assets/porfolio/quotes.png'
+import marvels from '../assets/porfolio/marvels.png'
 
 
 
@@ -24,9 +25,9 @@ function Portfolio() {
                         <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" 
                         src={Portfolio1} alt="" />
                     </a>
-                    <a href="https://numberguessinggamee.netlify.app/" target="_blank" rel="noopener noreferrer"className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
-                    <h1 className='text-white text-2xl mb-4'>Number Guessing Game</h1>
-                        <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={Portfolio2} alt="" />
+                    <a href="https://marvel-api-pearl.vercel.app/" target="_blank" rel="noopener noreferrer"className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 className='text-white text-2xl mb-4'>Marvels Api</h1>
+                        <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={marvels} alt="" />
                     </a>
                     {/* <a href="#" className="overflow-hidden rounded-lg" data-aos="fade-up" data-aos-duration="1000">
                         <img className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]" src={Portfolio3} alt="" />
