@@ -8,6 +8,7 @@ import Tailwind from '../assets/certificate/tailwind.png'
 import Javascript from '../assets/certificate/javascript.png'
 import SQL from '../assets/certificate/sql.png'
 import Responsive from '../assets/certificate/responsive.png'
+import Typescript from '../assets/certificate/typescript.png'
 
 export default function Certificate() {
     return (
@@ -93,6 +94,13 @@ export default function Certificate() {
                         <img
                             src={SQL}
                             alt="SQL Certificate"
+                            className="h-full w-full object-cover"
+                        />
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Dk3rvLsRNS-bYoqnJpj6L7e__VWlAXXJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={Typescript}
+                            alt="Mastering Typescript - 2025 Edition"
                             className="h-full w-full object-cover"
                         />
                     </a>
