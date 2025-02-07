@@ -9,7 +9,7 @@ import Javascript from '../assets/certificate/javascript.png'
 import SQL from '../assets/certificate/sql.png'
 import Responsive from '../assets/certificate/responsive.png'
 import Typescript from '../assets/certificate/typescript.png'
-import ReactBasics from '../assets/certificate/reactbasics.png'
+import ReactBasics from '../assets/certificate/reactBasics.png'
 
 export default function Certificate() {
     return (
@@ -73,7 +73,7 @@ export default function Certificate() {
                      <a href="https://coursera.org/share/289ddca083b718bbc71dbe3e5bfae63d" target="_blank" rel="noopener noreferrer">
                         <img
                             src={ReactBasics}
-                            alt="Mastering Typescript - 2025 Edition"
+                            alt="React Basics Certificate"
                             className="h-full w-full object-cover"
                         />
                     </a>

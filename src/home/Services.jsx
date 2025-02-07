@@ -23,7 +23,7 @@ function Services() {
                         <div className="flex items-center gap-3 ">
                             <div className="w-[52px] h-[52px] bg-[#46025e] flex justify-center items-center rounded-full">
                                 <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                             <p className="text-white font-bold">Web <br />Development</p>
@@ -40,7 +40,7 @@ function Services() {
                         <div className="flex items-center gap-3 ">
                             <div className="w-[52px] h-[52px] bg-[#46025e] flex justify-center items-center rounded-full">
                                 <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                             <p className="text-white font-bold">Custom Software<br />Solutions</p>
@@ -54,7 +54,7 @@ function Services() {
                         <div className="flex items-center gap-3 ">
                             <div className="w-[52px] h-[52px] bg-[#46025e] flex justify-center items-center rounded-full">
                                 <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156" stroke="#FF17E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                             <p className="text-white font-bold">API<br />Integration</p>
@@ -70,7 +70,7 @@ function Services() {
                             <div className="w-[52px] h-[52px] bg-[#46025e] flex justify-center items-center rounded-full">
                                 <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.75 3.64662L22 8.53455L16.75 13.4225M6.25 13.4225L1 8.53455L6.25 3.64662M13.75 0.853516L9.25 16.2156"
-                                        stroke="#FF17E8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        stroke="#FF17E8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                             <p className="text-white font-bold">Technical <br />
