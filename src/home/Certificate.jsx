@@ -9,6 +9,7 @@ import Javascript from '../assets/certificate/javascript.png'
 import SQL from '../assets/certificate/sql.png'
 import Responsive from '../assets/certificate/responsive.png'
 import Typescript from '../assets/certificate/typescript.png'
+import ReactBasics from '../assets/certificate/reactbasics.png'
 
 export default function Certificate() {
     return (
@@ -69,6 +70,20 @@ export default function Certificate() {
                         </IconButton>
                     )}
                 >
+                     <a href="https://coursera.org/share/289ddca083b718bbc71dbe3e5bfae63d" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={ReactBasics}
+                            alt="Mastering Typescript - 2025 Edition"
+                            className="h-full w-full object-cover"
+                        />
+                    </a>
+                     <a href="https://drive.google.com/file/d/1Dk3rvLsRNS-bYoqnJpj6L7e__VWlAXXJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={Typescript}
+                            alt="Mastering Typescript - 2025 Edition"
+                            className="h-full w-full object-cover"
+                        />
+                    </a>
                     <a href="https://drive.google.com/file/d/170oOQZX5JbLPvA6hncALS7hCT9NnzIk7/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                         <img
                             src={Reacthooks}
@@ -97,13 +112,7 @@ export default function Certificate() {
                             className="h-full w-full object-cover"
                         />
                     </a>
-                    <a href="https://drive.google.com/file/d/1Dk3rvLsRNS-bYoqnJpj6L7e__VWlAXXJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                        <img
-                            src={Typescript}
-                            alt="Mastering Typescript - 2025 Edition"
-                            className="h-full w-full object-cover"
-                        />
-                    </a>
+                   
                     <a href="https://www.freecodecamp.org/certification/markkybean/responsive-web-design" target="_blank" rel="noopener noreferrer">
                         <img
                             src={Responsive}
