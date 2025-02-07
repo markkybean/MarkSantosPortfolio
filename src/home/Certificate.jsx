@@ -9,7 +9,7 @@ import Javascript from '../assets/certificate/javascript.png'
 import SQL from '../assets/certificate/sql.png'
 import Responsive from '../assets/certificate/responsive.png'
 import Typescript from '../assets/certificate/typescript.png'
-import ReactBasics from '../assets/certificate/reactBasics.png'
+import ReactBasics from '../assets/certificate/reactB.png'
 
 export default function Certificate() {
     return (
