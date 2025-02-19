@@ -10,6 +10,7 @@ import SQL from '../assets/certificate/sql.png'
 import Responsive from '../assets/certificate/responsive.png'
 import Typescript from '../assets/certificate/typescript.png'
 import ReactBasics from '../assets/certificate/reactB.png'
+import AdvanceReact from '../assets/certificate/advanceReact.png'
 
 export default function Certificate() {
     return (
@@ -70,6 +71,13 @@ export default function Certificate() {
                         </IconButton>
                     )}
                 >
+                     <a href="https://coursera.org/share/289ddca083b718bbc71dbe3e5bfae63d" target="_blank" rel="noopener noreferrer">
+                        <img
+                            src={AdvanceReact}
+                            alt="React Basics Certificate"
+                            className="h-full w-full object-cover"
+                        />
+                    </a>
                      <a href="https://coursera.org/share/289ddca083b718bbc71dbe3e5bfae63d" target="_blank" rel="noopener noreferrer">
                         <img
                             src={ReactBasics}

@@ -17,16 +17,15 @@ function Hero() {
                         </div>
                         <div className="w-full lg:max-w-[79%]">
                             <p className="text-white lg:text-start md:text-center leading-[1.5]">
-                                Hello there! I'm Mark S. Santos, a <span className="font-bold"> Full-Stack Developer</span> with a passion
+                                Hello there! I'm Mark S. Santos, a <span className="font-bold">Frontend Developer</span> with a passion
                                 for turning ideas into reality.
                                 I specialize in building scalable, efficient, and user-friendly web applications using
-                                cutting-edge technologies like
-                                <span className="font-bold"> React,</span><span className="font-bold"> Laravel</span>
-                                ,<span className="font-bold"> Firebase</span>, and more.
+                                <span className="font-bold"> Reactjs </span>
+                                {/* <span className="font-bold"> Laravel</span> */}
+                                and<span className="font-bold"> Firebase</span>
                             </p>
                             <p className="mt-5 text-white lg:text-start md:text-center leading-[1.5]">
-                                Dive in to explore my projects, learn about my skills, and discover how I can bring your vision
-                                to life. Let's create something amazing together!
+                                Explore my projects, learn about my skills, and let's collaborate to bring your vision to life. Let's create something amazing together!
                             </p>
                         </div>
                         <div className=" flex flex-col lg:flex-row lg:justify-start lg:items-center lg:gap-3">
