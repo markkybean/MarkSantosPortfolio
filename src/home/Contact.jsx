@@ -14,7 +14,7 @@ function Contact() {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_5h5u23c', 'template_cbr8hvl', form.current, {
+            .sendForm('service_90txpft', 'template_cbr8hvl', form.current, {
                 publicKey: 'WNZgztzu5PfTOQO6C',
             })
             .then(
